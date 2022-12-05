@@ -1,0 +1,309 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+.navbar-1 {
+	background-color: #3c4048;
+	padding: 1em 0 1em 0;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.navbar-2 {
+	background-color: #696868;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.navbar-2 ul {
+	list-style: none;
+	display: flex;
+}
+
+.navbar-2 ul li {
+	padding-left: 30px;
+}
+
+.navbar-2 ul li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.navbar-2 ul li a:hover {
+	text-decoration: underline solid red 10%;
+}
+
+.ai-power {
+	text-align: center;
+	padding: 4em 0 4em 0;
+}
+
+.ai-power h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+.ai-power hr {
+	width: 5%;
+	margin: auto;
+	border: none;
+	height: 4px;
+	background: rgb(124, 15, 15);
+}
+
+.ai-power-img {
+	padding: 3em 0 0 0;
+}
+
+.ai-power-img p {
+	text-align: left;
+	padding-top: 2em;
+	margin: 0 21% 0 21%;
+	font-size: 20px;
+}
+
+.smart-bots {
+	text-align: center;
+	padding: 0 0 4em 0;
+}
+
+.smart-bots h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+.smart-bots hr {
+	width: 5%;
+	margin: auto;
+	border: none;
+	height: 4px;
+	background: rgb(124, 15, 15);
+}
+
+.smart-bots p {
+	text-align: center;
+	padding-top: 2em;
+	margin: 0 21% 0 21%;
+	font-size: 20px;
+}
+
+.grid-1 {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	justify-items: center;
+}
+
+.smart-bots-img {
+	padding: 3em 0 0 0;
+}
+
+.social-icon {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	justify-items: center;
+	margin: 0 20%;
+	padding-bottom: 4em;
+}
+
+.icon p {
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+}
+
+.btn {
+	width: 12em;
+}
+
+.button {
+	text-align: center;
+	margin: auto;
+	padding-bottom: 4em;
+}
+
+.marquee {
+	text-align: center;
+	padding: 0 0 4em 0;
+}
+
+.marquee h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+.marquee hr {
+	width: 5%;
+	margin: auto;
+	border: none;
+	height: 4px;
+	background: rgb(124, 15, 15);
+}
+
+.marquee p {
+	text-align: center;
+	padding-top: 2em;
+	margin: 0 21% 0 21%;
+	font-size: 20px;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0 20%;
+	grid-gap: 2em;
+	padding-bottom: 4em;
+	justify-items: center;
+}
+
+.smart {
+	text-align: center;
+	padding: 0 0 4em 0;
+}
+
+.smart h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+.smart hr {
+	width: 5%;
+	margin: auto;
+	border: none;
+	height: 4px;
+	background: rgb(124, 15, 15);
+}
+
+.smart p {
+	text-align: left;
+	padding-top: 2em;
+	margin: 0 21% 0 21%;
+	font-size: 20px;
+}
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0 20%;
+	grid-gap: 2em;
+	padding-bottom: 4em;
+	justify-items: center;
+}
+
+.digital-exp {
+	text-align: center;
+	padding: 0 0 4em 0;
+}
+
+.digital-exp h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+.digital-exp hr {
+	width: 5%;
+	margin: auto;
+	border: none;
+	height: 4px;
+	background: rgb(124, 15, 15);
+}
+
+.digital-exp p {
+	text-align: center;
+	padding: 4em 0;
+	margin: 0 21% 0 21%;
+	font-size: 20px;
+}
+
+.awards {
+	text-align: center;
+	padding: 0 0 4em 0;
+}
+
+.awards h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+.awards hr {
+	width: 5%;
+	margin: auto;
+	border: none;
+	height: 4px;
+	background: rgb(124, 15, 15);
+}
+
+.careers {
+	text-align: center;
+	padding: 4em 0 4em 0;
+	background: #dcd7c9;
+}
+
+.careers h2 {
+	font-weight: 700;
+	font-size: 3em;
+}
+
+.careers hr {
+	width: 5%;
+	margin: auto;
+	border: none;
+	height: 4px;
+	background: #fff;
+}
+
+.careers p {
+	text-align: center;
+	padding: 2em 0;
+	margin: 0 21% 0 21%;
+	font-size: 20px;
+}
+
+.footer {
+	background-color: black;
+	line-height: 2em;
+	height: 100%;
+}
+
+.grid-4 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	padding: 4em 0;
+	margin: 0 20%;
+}
+
+.footer h5 {
+	font-weight: 300;
+	color: white;
+}
+
+.footer ul {
+	list-style: none;
+	color: white;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer ul li:hover {
+	color: chocolate;
+}
+
+.footer ul li a:hover {
+	color: chocolate;
+}
+
+.footer-child-2 {
+	padding: 2em 0;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}

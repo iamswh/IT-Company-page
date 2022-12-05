@@ -1,0 +1,19 @@
+.form-left input {
+	/* padding: 1em; */
+	width: 50%;
+	padding: 1em;
+	margin: 5px 0px;
+	/* box-sizing: border-box; */
+}
+
+.form-page {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0 20%;
+	padding: 5em 0;
+}
+
+.form-right h5 {
+	padding: 1em 0;
+	font-size: 20px;
+}
